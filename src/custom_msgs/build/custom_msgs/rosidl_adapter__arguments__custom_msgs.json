@@ -1,0 +1,11 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/moenet/ros2_ws_rt/src/custom_msgs:msg/Quaternion.msg",
+    "/home/moenet/ros2_ws_rt/src/custom_msgs:msg/Pose3D.msg",
+    "/home/moenet/ros2_ws_rt/src/custom_msgs:msg/Pose3DStamped.msg",
+    "/home/moenet/ros2_ws_rt/src/custom_msgs:srv/Gstam.srv",
+    "/home/moenet/ros2_ws_rt/src/custom_msgs:srv/GetFromRio.srv",
+    "/home/moenet/ros2_ws_rt/src/custom_msgs:srv/PublishToRio.srv"
+  ]
+}

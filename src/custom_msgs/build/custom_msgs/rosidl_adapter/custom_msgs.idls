@@ -1,0 +1,6 @@
+/home/moenet/ros2_ws_rt/src/custom_msgs/build/custom_msgs/rosidl_adapter/custom_msgs:msg/Quaternion.idl
+/home/moenet/ros2_ws_rt/src/custom_msgs/build/custom_msgs/rosidl_adapter/custom_msgs:msg/Pose3D.idl
+/home/moenet/ros2_ws_rt/src/custom_msgs/build/custom_msgs/rosidl_adapter/custom_msgs:msg/Pose3DStamped.idl
+/home/moenet/ros2_ws_rt/src/custom_msgs/build/custom_msgs/rosidl_adapter/custom_msgs:srv/Gstam.idl
+/home/moenet/ros2_ws_rt/src/custom_msgs/build/custom_msgs/rosidl_adapter/custom_msgs:srv/GetFromRio.idl
+/home/moenet/ros2_ws_rt/src/custom_msgs/build/custom_msgs/rosidl_adapter/custom_msgs:srv/PublishToRio.idl

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/Pose3D.msg
+// generated code does not contain a copyright notice
+
+#include "custom_msgs/msg/Quaternion.idl"
+
+module custom_msgs {
+  module msg {
+    struct Pose3D {
+      float x;
+
+      float y;
+
+      float z;
+
+      custom_msgs::msg::Quaternion w;
+    };
+  };
+};

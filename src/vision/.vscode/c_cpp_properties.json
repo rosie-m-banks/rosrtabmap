@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/moenet/ros2_ws_rt/install/custom_msgs/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/moenet/ros2_ws_rt/src/vision/include/**",
+                "/usr/include/**",
+                "/home/moenet/ros2_ws_rt/install/custom_msgs/include/custom_msgs",
+                "/home/moenet/ros2_ws_rt/install/allwpilib/include/**",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/rosidl_runtime_cpp",
+                "/home/moenet/ros2_ws_rt/install/allwpilib/include/ntcore",
+                "/opt/ros/humble/include/rosidl_runtime_c",
+                "/opt/ros/humble/include/rviz_default_plugins/rviz_default_plugins/displays"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

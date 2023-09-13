@@ -1,0 +1,430 @@
+[INFO] [launch]: All log files can be found below /home/moenet/.ros/log/2023-08-23-19-52-48-772829-moenet-28726
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [28746]
+[INFO] [component_container-2]: process started with pid [28748]
+[INFO] [robot_state_publisher-3]: process started with pid [28750]
+[INFO] [component_container-4]: process started with pid [28752]
+[INFO] [component_container-5]: process started with pid [28754]
+[INFO] [rtabmap_viz-6]: process started with pid [28756]
+[robot_state_publisher-3] [INFO] [1692834769.056141493] [oak1_state_publisher]: got segment oak-d-base-frame
+[robot_state_publisher-3] [INFO] [1692834769.056209255] [oak1_state_publisher]: got segment oak1
+[robot_state_publisher-3] [INFO] [1692834769.056214609] [oak1_state_publisher]: got segment oak1_left_camera_frame
+[robot_state_publisher-3] [INFO] [1692834769.056218044] [oak1_state_publisher]: got segment oak1_left_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1692834769.056220846] [oak1_state_publisher]: got segment oak1_model_origin
+[robot_state_publisher-3] [INFO] [1692834769.056223573] [oak1_state_publisher]: got segment oak1_rgb_camera_frame
+[robot_state_publisher-3] [INFO] [1692834769.056226306] [oak1_state_publisher]: got segment oak1_rgb_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1692834769.056229412] [oak1_state_publisher]: got segment oak1_right_camera_frame
+[robot_state_publisher-3] [INFO] [1692834769.056232124] [oak1_state_publisher]: got segment oak1_right_camera_optical_frame
+[robot_state_publisher-1] [INFO] [1692834769.056485529] [oak0_state_publisher]: got segment oak-d-base-frame
+[robot_state_publisher-1] [INFO] [1692834769.056540301] [oak0_state_publisher]: got segment oak0
+[robot_state_publisher-1] [INFO] [1692834769.056545745] [oak0_state_publisher]: got segment oak0_left_camera_frame
+[robot_state_publisher-1] [INFO] [1692834769.056549037] [oak0_state_publisher]: got segment oak0_left_camera_optical_frame
+[robot_state_publisher-1] [INFO] [1692834769.056551956] [oak0_state_publisher]: got segment oak0_model_origin
+[robot_state_publisher-1] [INFO] [1692834769.056555172] [oak0_state_publisher]: got segment oak0_rgb_camera_frame
+[robot_state_publisher-1] [INFO] [1692834769.056557963] [oak0_state_publisher]: got segment oak0_rgb_camera_optical_frame
+[robot_state_publisher-1] [INFO] [1692834769.056560871] [oak0_state_publisher]: got segment oak0_right_camera_frame
+[robot_state_publisher-1] [INFO] [1692834769.056570995] [oak0_state_publisher]: got segment oak0_right_camera_optical_frame
+[component_container-2] [INFO] [1692834769.199885549] [oak0_container]: Load Library: /opt/ros/humble/lib/libdepthai_ros_driver.so
+[rtabmap_viz-6] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[component_container-2] [INFO] [1692834769.239947443] [oak0_container]: Found class: rclcpp_components::NodeFactoryTemplate<depthai_ros_driver::Camera>
+[component_container-2] [INFO] [1692834769.239994890] [oak0_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<depthai_ros_driver::Camera>
+[component_container-4] [INFO] [1692834769.281456923] [oak1_container]: Load Library: /opt/ros/humble/lib/libdepthai_ros_driver.so
+[component_container-5] [INFO] [1692834769.282933598] [rtab_container]: Load Library: /opt/ros/humble/lib/librtabmap_odom_plugins.so
+[component_container-4] [INFO] [1692834769.326193758] [oak1_container]: Found class: rclcpp_components::NodeFactoryTemplate<depthai_ros_driver::Camera>
+[component_container-4] [INFO] [1692834769.326229552] [oak1_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<depthai_ros_driver::Camera>
+[rtabmap_viz-6] [INFO] [1692834769.328805906] [rtabmap_viz]: rtabmap_viz: Using configuration from "/home/moenet/.ros/rtabmapGUI.ini"
+[component_container-5] [INFO] [1692834769.451552052] [rtab_container]: Found class: rclcpp_components::NodeFactoryTemplate<rtabmap_odom::ICPOdometry>
+[component_container-5] [INFO] [1692834769.451619237] [rtab_container]: Found class: rclcpp_components::NodeFactoryTemplate<rtabmap_odom::OdometryROS>
+[component_container-5] [INFO] [1692834769.451625207] [rtab_container]: Found class: rclcpp_components::NodeFactoryTemplate<rtabmap_odom::RGBDOdometry>
+[component_container-5] [INFO] [1692834769.451629818] [rtab_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<rtabmap_odom::RGBDOdometry>
+[component_container-5] [INFO] [1692834769.467953350] [rgbd_odometry]: Odometry: frame_id               = oaktyg
+[component_container-5] [INFO] [1692834769.467981364] [rgbd_odometry]: Odometry: odom_frame_id          = odom
+[component_container-5] [INFO] [1692834769.467985630] [rgbd_odometry]: Odometry: publish_tf             = true
+[component_container-5] [INFO] [1692834769.467988898] [rgbd_odometry]: Odometry: wait_for_transform     = 0.100000
+[component_container-5] [INFO] [1692834769.467999652] [rgbd_odometry]: Odometry: log_to_rosout_level    = 4
+[component_container-5] [INFO] [1692834769.468023187] [rgbd_odometry]: Odometry: initial_pose           = xyz=0.000000,0.000000,0.000000 rpy=0.000000,-0.000000,0.000000
+[component_container-5] [INFO] [1692834769.468027112] [rgbd_odometry]: Odometry: ground_truth_frame_id  = 
+[component_container-5] [INFO] [1692834769.468030308] [rgbd_odometry]: Odometry: ground_truth_base_frame_id = oaktyg
+[component_container-5] [INFO] [1692834769.468033350] [rgbd_odometry]: Odometry: config_path            = 
+[component_container-5] [INFO] [1692834769.468036308] [rgbd_odometry]: Odometry: publish_null_when_lost = true
+[component_container-5] [INFO] [1692834769.468039130] [rgbd_odometry]: Odometry: guess_frame_id         = 
+[component_container-5] [INFO] [1692834769.468042032] [rgbd_odometry]: Odometry: guess_min_translation  = 0.000000
+[component_container-5] [INFO] [1692834769.468045496] [rgbd_odometry]: Odometry: guess_min_rotation     = 0.000000
+[component_container-5] [INFO] [1692834769.468048628] [rgbd_odometry]: Odometry: guess_min_time         = 0.000000
+[component_container-5] [INFO] [1692834769.468051663] [rgbd_odometry]: Odometry: expected_update_rate   = 0.000000 Hz
+[component_container-5] [INFO] [1692834769.468054843] [rgbd_odometry]: Odometry: max_update_rate        = 0.000000 Hz
+[component_container-5] [INFO] [1692834769.468058138] [rgbd_odometry]: Odometry: min_update_rate        = 0.000000 Hz
+[component_container-5] [INFO] [1692834769.468061275] [rgbd_odometry]: Odometry: wait_imu_to_init       = false
+[component_container-5] [INFO] [1692834769.468076882] [rgbd_odometry]: Odometry: stereoParams_=0 visParams_=1 icpParams_=0
+[component_container-5] [INFO] [1692834769.480782987] [rgbd_odometry]: RGBDOdometry: approx_sync    = true
+[component_container-5] [INFO] [1692834769.480811540] [rgbd_odometry]: RGBDOdometry: approx_sync_max_interval = 0.000000
+[component_container-5] [INFO] [1692834769.480818862] [rgbd_odometry]: RGBDOdometry: queue_size     = 5
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/rgbd_odometry' in container '/rtab_container'
+[component_container-5] [INFO] [1692834769.480822769] [rgbd_odometry]: RGBDOdometry: qos            = 0
+[component_container-5] [INFO] [1692834769.480826058] [rgbd_odometry]: RGBDOdometry: qos_camera_info = 0
+[component_container-5] [INFO] [1692834769.480829197] [rgbd_odometry]: RGBDOdometry: subscribe_rgbd = true
+[component_container-5] [INFO] [1692834769.480832309] [rgbd_odometry]: RGBDOdometry: rgbd_cameras   = 1
+[component_container-5] [INFO] [1692834769.480835309] [rgbd_odometry]: RGBDOdometry: keep_color     = false
+[component_container-5] [INFO] [1692834769.481044897] [rgbd_odometry]: 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [INFO] [1692834769.481258304] [rtab_container]: Load Library: /opt/ros/humble/lib/librtabmap_slam_plugins.so
+[component_container-5] [INFO] [1692834769.497821942] [rtab_container]: Found class: rclcpp_components::NodeFactoryTemplate<rtabmap_slam::CoreWrapper>
+[component_container-5] [INFO] [1692834769.497853447] [rtab_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<rtabmap_slam::CoreWrapper>
+[component_container-5] [INFO] [1692834769.516771763] [rtabmap]: rtabmap(maps): map_filter_radius          = 0.000000
+[component_container-5] [INFO] [1692834769.516821872] [rtabmap]: rtabmap(maps): map_filter_angle           = 30.000000
+[component_container-5] [INFO] [1692834769.516829778] [rtabmap]: rtabmap(maps): map_cleanup                = true
+[component_container-5] [INFO] [1692834769.516834799] [rtabmap]: rtabmap(maps): map_always_update          = false
+[component_container-5] [INFO] [1692834769.516839425] [rtabmap]: rtabmap(maps): map_empty_ray_tracing      = true
+[component_container-5] [INFO] [1692834769.516843839] [rtabmap]: rtabmap(maps): cloud_output_voxelized     = true
+[component_container-5] [INFO] [1692834769.516848123] [rtabmap]: rtabmap(maps): cloud_subtract_filtering   = false
+[component_container-5] [INFO] [1692834769.516889231] [rtabmap]: rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2
+[component_container-5] [INFO] [1692834769.516933277] [rtabmap]: rtabmap(maps): octomap_tree_depth         = 16
+[component_container-5] [INFO] [1692834769.534626762] [rtabmap]: rtabmap: frame_id      = oaktyg
+[component_container-5] [INFO] [1692834769.534665581] [rtabmap]: rtabmap: map_frame_id  = map
+[component_container-5] [INFO] [1692834769.534670272] [rtabmap]: rtabmap: log_to_rosout_level  = 4
+[component_container-5] [INFO] [1692834769.534674242] [rtabmap]: rtabmap: initial_pose  = 
+[component_container-5] [INFO] [1692834769.534677360] [rtabmap]: rtabmap: use_action_for_goal  = false
+[component_container-5] [INFO] [1692834769.534680591] [rtabmap]: rtabmap: tf_delay      = 0.050000
+[component_container-5] [INFO] [1692834769.534688688] [rtabmap]: rtabmap: tf_tolerance  = 0.100000
+[component_container-5] [INFO] [1692834769.534692351] [rtabmap]: rtabmap: odom_sensor_sync   = false
+[component_container-5] [INFO] [1692834769.534695639] [rtabmap]: rtabmap: gen_scan  = false
+[component_container-5] [INFO] [1692834769.534698705] [rtabmap]: rtabmap: gen_depth  = false
+[component_container-5] [INFO] [1692834769.548743583] [rtabmap]: Setting RTAB-Map parameter "Rtabmap/DetectionRate"="3.5"
+[component_container-5] [INFO] [1692834769.556462446] [rtabmap]: RTAB-Map detection rate = 3.500000 Hz
+[component_container-5] [INFO] [1692834769.556517235] [rtabmap]: rtabmap: Using database from "/home/moenet/.ros/rtabmap.db" (0 MB).
+[component_container-5] [INFO] [1692834769.588207379] [rtabmap]: rtabmap: Working Memory = 3, Local map = 3.
+[component_container-5] [INFO] [1692834769.588266904] [rtabmap]: rtabmap: Database version = "0.21.1".
+[component_container-5] [INFO] [1692834769.588272014] [rtabmap]: rtabmap: SLAM mode (Mem/IncrementalMemory=true)
+[component_container-5] [INFO] [1692834769.596955943] [rtabmap]: Setup callbacks
+[component_container-5] [WARN] [1692834769.596994484] [rtabmap]: rtabmap: Parameters subscribe_depth and subscribe_rgbd cannot be true at the same time. Parameter subscribe_depth is set to false.
+[component_container-5] [INFO] [1692834769.597100468] [rtabmap]: rtabmap: subscribe_depth = false
+[component_container-5] [INFO] [1692834769.597108193] [rtabmap]: rtabmap: subscribe_rgb = false
+[component_container-5] [INFO] [1692834769.597111803] [rtabmap]: rtabmap: subscribe_stereo = false
+[component_container-5] [INFO] [1692834769.597115348] [rtabmap]: rtabmap: subscribe_rgbd = true (rgbd_cameras=1)
+[component_container-5] [INFO] [1692834769.597120292] [rtabmap]: rtabmap: subscribe_odom_info = true
+[component_container-5] [INFO] [1692834769.597123912] [rtabmap]: rtabmap: subscribe_user_data = false
+[component_container-5] [INFO] [1692834769.597127023] [rtabmap]: rtabmap: subscribe_scan = false
+[component_container-5] [INFO] [1692834769.597130224] [rtabmap]: rtabmap: subscribe_scan_cloud = false
+[component_container-5] [INFO] [1692834769.597133255] [rtabmap]: rtabmap: subscribe_scan_descriptor = false
+[component_container-5] [INFO] [1692834769.597136355] [rtabmap]: rtabmap: queue_size      = 10
+[component_container-5] [INFO] [1692834769.597139705] [rtabmap]: rtabmap: qos_image       = 0
+[component_container-5] [INFO] [1692834769.597143334] [rtabmap]: rtabmap: qos_camera_info = 0
+[component_container-5] [INFO] [1692834769.597147116] [rtabmap]: rtabmap: qos_scan        = 0
+[component_container-5] [INFO] [1692834769.597150100] [rtabmap]: rtabmap: qos_odom        = 0
+[component_container-5] [INFO] [1692834769.597153382] [rtabmap]: rtabmap: qos_user_data   = 0
+[component_container-5] [INFO] [1692834769.597156676] [rtabmap]: rtabmap: approx_sync     = true
+[component_container-5] [INFO] [1692834769.597768925] [rtabmap]: Setup rgbd callback
+[component_container-5] [INFO] [1692834769.599258812] [rtabmap]: 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/rtabmap' in container 'rtab_container'
+[component_container-2] [INFO] [1692834769.752804662] [oak0.camera]: Connecting to the camera using mxid: 19443010F148F91200
+[component_container-4] [INFO] [1692834769.836832764] [oak1.camera]: Device info: MXID: 19443010F148F91200, Name: 3.4
+[component_container-4] [ERROR] [1692834769.836941703] [oak1.camera]: Unable to connect to the device, check if parameters match with given info.
+[rtabmap_viz-6] libpng warning: iCCP: known incorrect sRGB profile
+[rtabmap_viz-6] libpng warning: iCCP: known incorrect sRGB profile
+[rtabmap_viz-6] libpng warning: iCCP: known incorrect sRGB profile
+[rtabmap_viz-6] [WARN] [1692834770.102034335] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[rtabmap_viz-6] [INFO] [1692834770.104888646] [rtabmap_viz]: Reading parameters from the ROS server...
+[rtabmap_viz-6] [INFO] [1692834770.133069750] [rtabmap_viz]: Parameters read = 360
+[rtabmap_viz-6] [INFO] [1692834770.133150947] [rtabmap_viz]: Parameters successfully read.
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.089s) [        723472C0]vtkOpenGLPolyDataMapper:306   WARN| vtkOpenGLPolyDataMapper::GetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:298   WARN| vtkOpenGLPolyDataMapper::SetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:336   WARN| vtkOpenGLPolyDataMapper::GetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:328   WARN| vtkOpenGLPolyDataMapper::SetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:321   WARN| vtkOpenGLPolyDataMapper::GetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetFragmentShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:313   WARN| vtkOpenGLPolyDataMapper::SetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetFragmentShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:306   WARN| vtkOpenGLPolyDataMapper::GetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:298   WARN| vtkOpenGLPolyDataMapper::SetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:336   WARN| vtkOpenGLPolyDataMapper::GetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:328   WARN| vtkOpenGLPolyDataMapper::SetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:321   WARN| vtkOpenGLPolyDataMapper::GetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetFragmentShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:52:50.272 (   1.090s) [        723472C0]vtkOpenGLPolyDataMapper:313   WARN| vtkOpenGLPolyDataMapper::SetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetFragmentShaderCode instead.[0m
+[rtabmap_viz-6] [INFO] [1692834770.288897032] [rtabmap_viz]: rtabmap_viz: subscribe_depth = false
+[rtabmap_viz-6] [INFO] [1692834770.288926409] [rtabmap_viz]: rtabmap_viz: subscribe_rgb = false
+[rtabmap_viz-6] [INFO] [1692834770.288929221] [rtabmap_viz]: rtabmap_viz: subscribe_stereo = false
+[rtabmap_viz-6] [INFO] [1692834770.288931169] [rtabmap_viz]: rtabmap_viz: subscribe_rgbd = true (rgbd_cameras=1)
+[rtabmap_viz-6] [INFO] [1692834770.288934167] [rtabmap_viz]: rtabmap_viz: subscribe_odom_info = true
+[rtabmap_viz-6] [INFO] [1692834770.288936057] [rtabmap_viz]: rtabmap_viz: subscribe_user_data = false
+[rtabmap_viz-6] [INFO] [1692834770.288937835] [rtabmap_viz]: rtabmap_viz: subscribe_scan = false
+[rtabmap_viz-6] [INFO] [1692834770.288939658] [rtabmap_viz]: rtabmap_viz: subscribe_scan_cloud = false
+[rtabmap_viz-6] [INFO] [1692834770.288941428] [rtabmap_viz]: rtabmap_viz: subscribe_scan_descriptor = false
+[rtabmap_viz-6] [INFO] [1692834770.288943454] [rtabmap_viz]: rtabmap_viz: queue_size      = 10
+[rtabmap_viz-6] [INFO] [1692834770.288945479] [rtabmap_viz]: rtabmap_viz: qos_image       = 0
+[rtabmap_viz-6] [INFO] [1692834770.288947416] [rtabmap_viz]: rtabmap_viz: qos_camera_info = 0
+[rtabmap_viz-6] [INFO] [1692834770.288949233] [rtabmap_viz]: rtabmap_viz: qos_scan        = 0
+[rtabmap_viz-6] [INFO] [1692834770.288951316] [rtabmap_viz]: rtabmap_viz: qos_odom        = 0
+[rtabmap_viz-6] [INFO] [1692834770.288953428] [rtabmap_viz]: rtabmap_viz: qos_user_data   = 0
+[rtabmap_viz-6] [INFO] [1692834770.288955230] [rtabmap_viz]: rtabmap_viz: approx_sync     = true
+[rtabmap_viz-6] [INFO] [1692834770.288964040] [rtabmap_viz]: Setup rgbd callback
+[rtabmap_viz-6] [INFO] [1692834770.291053202] [rtabmap_viz]: 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[rtabmap_viz-6] [INFO] [1692834770.291128255] [rtabmap_viz]: rtabmap_viz started.
+[component_container-4] [2023-08-23 19:52:50.868] [depthai] [warning] skipping X_LINK_UNBOOTED device having name "3.4"
+[component_container-4] [INFO] [1692834770.868802806] [oak1.camera]: Connecting to the camera using mxid: 1844301061B1721200
+[component_container-2] [INFO] [1692834771.737229340] [oak0.camera]: Device info: MXID: 1844301061B1721200, Name: 3.8
+[component_container-2] [ERROR] [1692834771.737314584] [oak0.camera]: Unable to connect to the device, check if parameters match with given info.
+[component_container-2] [INFO] [1692834771.738228533] [oak0.camera]: Camera with MXID: 19443010F148F91200 and Name: 3.4 connected!
+[component_container-2] [INFO] [1692834771.739152539] [oak0.camera]: USB SPEED: SUPER_PLUS
+[component_container-2] [INFO] [1692834771.760557696] [oak0.camera]: Device type: OAK-D-S2-FF
+[component_container-2] [INFO] [1692834771.762899651] [oak0.camera]: Pipeline type: RGBD
+[component_container-5] [INFO] [1692834771.768397085] [rtabmap]: rtabmap: Updating parameters
+[component_container-5] [INFO] [1692834771.768456698] [rtabmap]: RTAB-Map rate detection = 3.500000 Hz
+[component_container-5] [INFO] [1692834771.773503999] [rtabmap]: rtabmap: Updating parameters
+[component_container-5] [INFO] [1692834771.773548194] [rtabmap]: RTAB-Map rate detection = 3.500000 Hz
+[component_container-2] [INFO] [1692834772.014151675] [oak0.camera]: Finished setting up pipeline.
+[component_container-2] [INFO] [1692834772.263587340] [oak0.camera]: Camera ready!
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak0/camera' in container '/oak0_container'
+[component_container-2] [INFO] [1692834772.263952508] [oak0_container]: Load Library: /opt/ros/humble/lib/librectify.so
+[component_container-2] [INFO] [1692834772.268188381] [oak0_container]: Found class: rclcpp_components::NodeFactoryTemplate<image_proc::RectifyNode>
+[component_container-2] [INFO] [1692834772.268228389] [oak0_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<image_proc::RectifyNode>
+[component_container-2] [INFO] [1692834772.276370590] [oak0_container]: Load Library: /opt/ros/humble/lib/librtabmap_sync_plugins.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak0/rectify_color_node' in container 'oak0_container'
+[component_container-2] [INFO] [1692834772.359435341] [oak0_container]: Found class: rclcpp_components::NodeFactoryTemplate<rtabmap_sync::RGBDSync>
+[component_container-2] [INFO] [1692834772.359487228] [oak0_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<rtabmap_sync::RGBDSync>
+[component_container-2] [INFO] [1692834772.372929158] [oak0.rgbd_sync]: rgbd_sync: approx_sync = true
+[component_container-2] [INFO] [1692834772.372978253] [oak0.rgbd_sync]: rgbd_sync: approx_sync_max_interval = 0.000000
+[component_container-2] [INFO] [1692834772.372996943] [oak0.rgbd_sync]: rgbd_sync: queue_size  = 10
+[component_container-2] [INFO] [1692834772.373008054] [oak0.rgbd_sync]: rgbd_sync: qos         = 0
+[component_container-2] [INFO] [1692834772.373018517] [oak0.rgbd_sync]: rgbd_sync: qos_camera_info = 0
+[component_container-2] [INFO] [1692834772.373028580] [oak0.rgbd_sync]: rgbd_sync: depth_scale = 1.000000
+[component_container-2] [INFO] [1692834772.373039895] [oak0.rgbd_sync]: rgbd_sync: decimation = 1
+[component_container-2] [INFO] [1692834772.373050136] [oak0.rgbd_sync]: rgbd_sync: compressed_rate = 0.000000
+[component_container-2] [INFO] [1692834772.376127210] [oak0.rgbd_sync]: 
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak0/rgbd_sync' in container '/oak0_container'
+[component_container-2] rgbd_sync subscribed to (approx sync):
+[component_container-2]    /oak0/camera/rgb/image_rect,
+[component_container-2]    /oak0/camera/stereo/image_raw,
+[component_container-2]    /oak0/camera/rgb/camera_info
+[component_container-4] [INFO] [1692834772.834659638] [oak1.camera]: Camera with MXID: 1844301061B1721200 and Name: 3.8 connected!
+[component_container-4] [INFO] [1692834772.835379877] [oak1.camera]: USB SPEED: SUPER
+[component_container-4] [INFO] [1692834772.855802287] [oak1.camera]: Device type: OAK-D-LITE
+[component_container-4] [INFO] [1692834772.857520317] [oak1.camera]: Pipeline type: RGBD
+[component_container-5] [INFO] [1692834772.862912540] [rtabmap]: rtabmap: Updating parameters
+[component_container-5] [INFO] [1692834772.862970098] [rtabmap]: RTAB-Map rate detection = 3.500000 Hz
+[component_container-4] [INFO] [1692834772.875005402] [oak1.camera]: Finished setting up pipeline.
+[component_container-5] [INFO] [1692834772.877258117] [rtabmap]: rtabmap: Updating parameters
+[component_container-5] [INFO] [1692834772.877826419] [rtabmap]: RTAB-Map rate detection = 3.500000 Hz
+[component_container-4] [1844301061B1721200] [3.8] [0.991] [MonoCamera(6)] [error] OV7251 only supports THE_480_P/THE_400_P resolutions, defaulting to THE_480_P
+[component_container-4] [1844301061B1721200] [3.8] [0.993] [MonoCamera(4)] [error] OV7251 only supports THE_480_P/THE_400_P resolutions, defaulting to THE_480_P
+[component_container-4] [INFO] [1692834773.123714830] [oak1.camera]: Camera ready!
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak1/camera' in container '/oak1_container'
+[component_container-4] [INFO] [1692834773.124115812] [oak1_container]: Load Library: /opt/ros/humble/lib/librectify.so
+[component_container-4] [INFO] [1692834773.127872249] [oak1_container]: Found class: rclcpp_components::NodeFactoryTemplate<image_proc::RectifyNode>
+[component_container-4] [INFO] [1692834773.127911152] [oak1_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<image_proc::RectifyNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak1/rectify_color_node' in container 'oak1_container'
+[component_container-4] [INFO] [1692834773.137520734] [oak1_container]: Load Library: /opt/ros/humble/lib/librtabmap_sync_plugins.so
+[component_container-4] [INFO] [1692834773.237926609] [oak1_container]: Found class: rclcpp_components::NodeFactoryTemplate<rtabmap_sync::RGBDSync>
+[component_container-4] [INFO] [1692834773.237971433] [oak1_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<rtabmap_sync::RGBDSync>
+[component_container-4] [INFO] [1692834773.242169087] [oak1.rgbd_sync]: rgbd_sync: approx_sync = true
+[component_container-4] [INFO] [1692834773.242203228] [oak1.rgbd_sync]: rgbd_sync: approx_sync_max_interval = 0.000000
+[component_container-4] [INFO] [1692834773.242213936] [oak1.rgbd_sync]: rgbd_sync: queue_size  = 10
+[component_container-4] [INFO] [1692834773.242219079] [oak1.rgbd_sync]: rgbd_sync: qos         = 0
+[component_container-4] [INFO] [1692834773.242223778] [oak1.rgbd_sync]: rgbd_sync: qos_camera_info = 0
+[component_container-4] [INFO] [1692834773.242228137] [oak1.rgbd_sync]: rgbd_sync: depth_scale = 1.000000
+[component_container-4] [INFO] [1692834773.242233690] [oak1.rgbd_sync]: rgbd_sync: decimation = 1
+[component_container-4] [INFO] [1692834773.242238459] [oak1.rgbd_sync]: rgbd_sync: compressed_rate = 0.000000
+[component_container-4] [INFO] [1692834773.245780873] [oak1.rgbd_sync]: 
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/oak1/rgbd_sync' in container '/oak1_container'
+[component_container-4] rgbd_sync subscribed to (approx sync):
+[component_container-4]    /oak1/camera/rgb/image_rect,
+[component_container-4]    /oak1/camera/stereo/image_raw,
+[component_container-4]    /oak1/camera/rgb/camera_info
+[component_container-5] [WARN] [1692834774.481263427] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834774.599377288] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834775.291194382] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834779.481193789] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834779.599444571] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834780.291247892] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834784.481315060] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834784.599362977] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834785.291144995] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834789.481240541] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834789.599375740] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834790.291163144] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834794.481219052] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834794.599358353] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834795.291255697] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834799.481234488] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834799.599374053] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834800.291140682] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834804.481206806] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834804.599399607] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834805.291250393] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834809.481211648] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834809.599437447] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834810.291252173] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[component_container-5] [WARN] [1692834814.481200217] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834814.599439800] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[rtabmap_viz-6] [WARN] [1692834815.291254500] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[component_container-4] [INFO] [1692834817.869411397] [rclcpp]: signal_handler(signum=2)
+[INFO] [robot_state_publisher-3]: process has finished cleanly [pid 28750]
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 28746]
+[component_container-2] [INFO] [1692834817.869489311] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-1] [INFO] [1692834817.869521721] [rclcpp]: signal_handler(signum=2)
+[component_container-5] [INFO] [1692834817.869528935] [rclcpp]: signal_handler(signum=2)
+[component_container-5] [WARN] [1692834817.869977077] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. Parameter "approx_sync" is false, which means that input topics should have all the exact timestamp for the callback to be called.
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[component_container-5] [WARN] [1692834817.870083715] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[component_container-5] rtabmap subscribed to (approx sync):
+[component_container-5]    /odom \
+[component_container-5]    /rgbd_image \
+[component_container-5]    /odom_info
+[robot_state_publisher-3] [INFO] [1692834817.869579507] [rclcpp]: signal_handler(signum=2)
+[rtabmap_viz-6] [INFO] [1692834817.869599186] [rtabmap_viz]: rtabmap_viz stopping spinner...
+[rtabmap_viz-6] [WARN] [1692834817.869933191] [rtabmap_viz]: rtabmap_viz: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). If topics are not published at the same rate, you could increase "queue_size" parameter (current=10). 
+[rtabmap_viz-6] rtabmap_viz subscribed to (approx sync):
+[rtabmap_viz-6]    /odom \
+[rtabmap_viz-6]    /rgbd_image \
+[rtabmap_viz-6]    /odom_info
+[rtabmap_viz-6] [INFO] [1692834817.871905541] [rtabmap_viz]: rtabmap_viz: All done! Closing...
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:306   WARN| vtkOpenGLPolyDataMapper::GetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:298   WARN| vtkOpenGLPolyDataMapper::SetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:336   WARN| vtkOpenGLPolyDataMapper::GetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:328   WARN| vtkOpenGLPolyDataMapper::SetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:321   WARN| vtkOpenGLPolyDataMapper::GetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetFragmentShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:313   WARN| vtkOpenGLPolyDataMapper::SetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetFragmentShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:306   WARN| vtkOpenGLPolyDataMapper::GetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:298   WARN| vtkOpenGLPolyDataMapper::SetVertexShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetVertexShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:336   WARN| vtkOpenGLPolyDataMapper::GetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:328   WARN| vtkOpenGLPolyDataMapper::SetGeometryShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetGeometryShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:321   WARN| vtkOpenGLPolyDataMapper::GetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::GetFragmentShaderCode instead.[0m
+[rtabmap_viz-6] [0m[33m2023-08-23 19:53:37.895 (  48.712s) [        723472C0]vtkOpenGLPolyDataMapper:313   WARN| vtkOpenGLPolyDataMapper::SetFragmentShaderCode was deprecated for VTK 9.0 and will be removed in a future version.  Use vtkOpenGLShaderProperty::SetFragmentShaderCode instead.[0m
+[component_container-5] [INFO] [1692834817.920274296] [rtabmap]: Parameters are not saved (No configuration file provided...)
+[INFO] [component_container-4]: process has finished cleanly [pid 28752]
+[INFO] [component_container-2]: process has finished cleanly [pid 28748]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834822.520454972] [rclcpp]: signal_handler(signum=2)
+[ERROR] [rtabmap_viz-6]: process has died [pid 28756, exit code -2, cmd '/opt/ros/humble/lib/rtabmap_viz/rtabmap_viz --ros-args --params-file /tmp/launch_params_oc5eav31 -r rgbd_image0:=oak0/rgbd_image -r rgbd_image1:=oak1/rgbd_image'].
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834822.734768720] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834822.850867754] [rclcpp]: signal_handler(signum=2)
+[component_container-5] [WARN] [1692834822.870211935] [rgbd_odometry]: rgbd_odometry: Did not receive data since 5 seconds! Make sure the input topics are published ("$ rostopic hz my_topic") and the timestamps in their header are set. 
+[component_container-5] rgbd_odometry subscribed to:
+[component_container-5]    /rgbd_image
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834823.001912066] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834823.135210091] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834823.268756805] [rclcpp]: signal_handler(signum=2)
+[ERROR] [component_container-5]: process[component_container-5] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [component_container-5]: sending signal 'SIGTERM' to process[component_container-5]
+[component_container-5] [INFO] [1692834823.276725186] [rclcpp]: signal_handler(signum=15)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834823.384833002] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834823.653590971] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834823.801502188] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834824.269724012] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834824.415840391] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834824.551034003] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834824.684242412] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834824.801588379] [rclcpp]: signal_handler(signum=2)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[component_container-5] [INFO] [1692834824.983410177] [rclcpp]: signal_handler(signum=2)

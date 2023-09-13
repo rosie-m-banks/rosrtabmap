@@ -1,0 +1,8 @@
+camera:
+  ros__parameters:
+    camera:
+      i_enable_imu: false
+      i_mx_id: "1844301061B1721200"
+      i_nn_type: none
+    stereo:
+      i_subpixel: true

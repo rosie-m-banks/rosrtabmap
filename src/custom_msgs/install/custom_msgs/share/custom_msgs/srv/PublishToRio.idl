@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msgs/srv/PublishToRio.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Transform.idl"
+
+module custom_msgs {
+  module srv {
+    struct PublishToRio_Request {
+      geometry_msgs::msg::Transform a;
+    };
+    struct PublishToRio_Response {
+      boolean b;
+    };
+  };
+};
